@@ -2308,6 +2308,8 @@ ul {
     z-index: 9999 !important;
     position: absolute;
     left: 0;
+    max-height: 536px;
+    overflow: scroll;
     top: 65px;
     width: 100%;
     background-color: #fff;
