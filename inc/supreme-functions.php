@@ -283,7 +283,7 @@ function supreme_page_titlebar() {
 /*================================================
 	Blog pull right class callback
 =================================================*/
-function supreme_pull_right( $id = '', $condation ){
+function supreme_pull_right( $id , $condation ){
     
     if( $id == $condation ){
         return ' '.'order-last';

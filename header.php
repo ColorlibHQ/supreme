@@ -36,12 +36,14 @@
                     <div class="col-lg-6 col-sm-4">
                         <div class="sub_menu_social_icon">
                             <?php
-                                for ( $i = 0; $i < count($social_icons); $i++ ) {
-                                    $social_icon = $social_icons[$i]['social_icon'];
-                                    ?>
-                                    <a href="<?php echo esc_url($social_icons[$i]['social_url']);?>"><i class="<?php echo esc_html( supreme_social_icon_overwrite_by_flaticon( $social_icon ) );?>"></i></a>
-                                <?php
-                                }
+                                if(is_array($social_icons)):
+                                    for ( $i = 0; $i < count($social_icons); $i++ ) {
+                                        $social_icon = $social_icons[$i]['social_icon'];
+                                        ?>
+                                        <a href="<?php echo esc_url($social_icons[$i]['social_url']);?>"><i class="<?php echo esc_html( supreme_social_icon_overwrite_by_flaticon( $social_icon ) );?>"></i></a>
+                                    <?php
+                                    }
+                                endif;    
                             ?>
                         </div>
                     </div>
