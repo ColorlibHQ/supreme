@@ -33,7 +33,7 @@
             </a>
             <?php
             $post_exc_limit = !empty( supreme_opt( 'supreme_excerpt_length' ) ) ? supreme_opt( 'supreme_excerpt_length' ) : 28;
-            echo wpautop( wp_trim_words( get_the_content(), $post_exc_limit, '' ) );
+            echo wpautop( wp_trim_words( get_the_content(), $post_exc_limit, '...' ) );
 
             if( supreme_opt( 'supreme_blog_meta' ) == 1 ) {
 	            ?>
