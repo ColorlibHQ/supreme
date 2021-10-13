@@ -14,8 +14,13 @@ Easiest way to go about cloning a repository recursively is to use (Windows only
 
 * Theme Name: Supreme
 * Theme URI: http://colorlib.com/wp/supreme/
-* Version: 1.0
-* Tested up to: WP 5.3.2
+* Version: 1.1
+
+* Requires PHP at least: 5.0
+* Tested PHP up to: 8.0.7
+
+* Requires WP at least: 4.9
+* Tested WP up to: 5.7.2
 
 ```
 * Author: Colorlib
