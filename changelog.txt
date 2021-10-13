@@ -1,0 +1,3 @@
+## 1.1
+	bug fixes
+	added support for php 8.0 and fixed some deprecation issues
