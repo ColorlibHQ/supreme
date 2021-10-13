@@ -1,6 +1,6 @@
 === Colorlib ===
 Contributors: Colorlib
-Version: 1.2
+Version: 1.1
 
 Requires PHP at least: 5.0
 Tested PHP up to: 8.0.7
