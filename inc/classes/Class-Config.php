@@ -151,128 +151,114 @@
 			$scripts = array(
 				'style' => array(
 					array(
-						'handler'		=> 'google-font',
+						'handler'		=> 'supreme-theme-google-font',
 						'file' 			=> $this->google_font(),
 					),
 					array(
-						'handler'		=> 'bootstrap',
+						'handler'		=> 'supreme-theme-bootstrap',
 						'file' 			=> $cssPath.'bootstrap.min.css',
 						'dependency' 	=> array(),
-						'version' 		=> '4.3.1',
+						'version' 		=> '5.3.8-4',
 					),
 					array(
-						'handler'		=> 'animate',
+						'handler'		=> 'supreme-theme-animate',
 						'file' 			=> $cssPath.'animate.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'owl-carousel',
+						'handler'		=> 'supreme-theme-owl-carousel',
 						'file' 			=> $cssPath.'owl.carousel.min.css',
 						'dependency' 	=> array(),
 						'version' 		=> '2.3.4',
 					),
 					array(
-						'handler'		=> 'font-awesome',
+						'handler'		=> 'supreme-theme-font-awesome',
 						'file' 			=> $cssPath.'font-awesome.min.css',
 						'dependency' 	=> array(),
-						'version' 		=> '4.5.0',
+						'version' 		=> '7.3.1-1',
 					),
 					array(
-						'handler'		=> 'themify',
+						'handler'		=> 'supreme-theme-themify',
 						'file' 			=> $cssPath.'themify-icons.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'flaticon',
+						'handler'		=> 'supreme-theme-flaticon',
 						'file' 			=> $cssPath.'flaticon.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'magnific-popup-css',
+						'handler'		=> 'supreme-theme-magnific-popup-css',
 						'file' 			=> $cssPath.'magnific-popup.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'slick-css',
+						'handler'		=> 'supreme-theme-slick-css',
 						'file' 			=> $cssPath.'slick.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'default-css',
+						'handler'		=> 'supreme-theme-default-css',
 						'file' 			=> $cssPath.'default.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'style-css',
+						'handler'		=> 'supreme-theme-style-css',
 						'file' 			=> $cssPath.'style.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					
 					array(
-						'handler'		=> 'supreme-style',
+						'handler'		=> 'supreme-theme-supreme-style',
 						'file' 			=> get_stylesheet_uri(),
 					),
 				),
 				
 				'scripts' => array(
 					array(
-						'handler'		=> 'popper',
-						'file' 			=> $jsPath.'popper.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '4.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'bootstrap',
+						'handler'		=> 'supreme-theme-bootstrap',
 						'file' 			=> $jsPath.'bootstrap.min.js',
 						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '4.3.1',
+						'version' 		=> '5.3.8-4',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'magnific-popup-js',
+						'handler'		=> 'supreme-theme-magnific-popup-js',
 						'file' 			=> $jsPath.'jquery.magnific-popup.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'swiper-min-js',
+						'handler'		=> 'supreme-theme-swiper-min-js',
 						'file' 			=> $jsPath.'swiper.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '4.3.3',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'instagram-feed-js',
+						'handler'		=> 'supreme-theme-instagram-feed-js',
 						'file' 			=> $jsPath.'jquery.instagramFeed.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'masonry-pkgd-js',
-						'file' 			=> $jsPath.'masonry.pkgd.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'slick-min-js',
+						'handler'		=> 'supreme-theme-slick-min-js',
 						'file' 			=> $jsPath.'slick.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'jquery-ajaxchimp-js',
+						'handler'		=> 'supreme-theme-jquery-ajaxchimp-js',
 						'file' 			=> $jsPath.'jquery.ajaxchimp.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
@@ -280,7 +266,7 @@
 					),
 
 					array(
-						'handler'		=> 'supreme-custom',
+						'handler'		=> 'supreme-theme-supreme-custom',
 						'file' 			=> $jsPath.'custom.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> $this->supreme_version,
