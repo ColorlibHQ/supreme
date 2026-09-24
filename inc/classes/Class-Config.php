@@ -244,13 +244,6 @@
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'supreme-theme-instagram-feed-js',
-						'file' 			=> $jsPath.'jquery.instagramFeed.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
 						'handler'		=> 'supreme-theme-slick-min-js',
 						'file' 			=> $jsPath.'slick.min.js',
 						'dependency' 	=> array( 'jquery' ),
@@ -266,10 +259,17 @@
 					),
 
 					array(
+						'handler'		=> 'supreme-ui-js',
+						'file' 			=> $jsPath.'colorlib-ui.js',
+						'dependency' 	=> array(),
+						'version' 		=> '2.1.1',
+						'in_footer' 	=> true
+					),
+					array(
 						'handler'		=> 'supreme-theme-supreme-custom',
 						'file' 			=> $jsPath.'custom.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> $this->supreme_version,
+						'dependency' 	=> array( 'jquery', 'supreme-ui-js' ),
+						'version' 		=> $this->supreme_version . '-s1',
 						'in_footer' 	=> true
 					),
 
