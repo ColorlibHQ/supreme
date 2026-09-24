@@ -14,6 +14,7 @@ function supreme_sl_enqueue_scripts() {
 
 	wp_localize_script( 'supreme-post-likes', 'simpleLikes', array(
 		'ajaxurl' => admin_url( 'admin-ajax.php' ),
+		'like'    => esc_html__( 'Like', 'supreme' ),
 		'unlike'  => esc_html__( 'Unlike', 'supreme' )
 	) );
 }

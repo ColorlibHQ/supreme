@@ -241,7 +241,7 @@
 						'handler'		=> 'supreme-theme-supreme-custom',
 						'file' 			=> $jsPath.'custom.js',
 						'dependency' 	=> array( 'supreme-ui-js' ),
-						'version' 		=> $this->supreme_version . '-s2',
+						'version' 		=> $this->supreme_version . '-s3',
 						'in_footer' 	=> true
 					),
 
